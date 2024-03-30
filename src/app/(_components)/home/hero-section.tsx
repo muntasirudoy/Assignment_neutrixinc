@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export const HeroSection = () => {
   return (
-    <div className=" h-[514px] bg-[#C81E1E]">
-      <div className="container flex h-full justify-between">
+    <div className=" my-6 box-border h-[514px] ">
+      <div className="container flex h-full justify-between rounded-xl bg-primary">
         <div className="box-border flex  w-1/2 flex-col justify-center">
           <div className=" z-[1] flex max-w-full flex-col items-start justify-start gap-[40px] self-stretch">
             <div className="flex max-w-full flex-col items-start justify-start gap-[16px] self-stretch">
