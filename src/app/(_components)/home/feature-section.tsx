@@ -1,3 +1,3 @@
 export const FeatureSection = () => {
-  return <div>FeatureSection</div>;
+  return <div></div>;
 };
