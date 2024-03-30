@@ -1,3 +1,9 @@
+/**
+ * Represents a hero section component displaying a message and an image.
+ * @component
+ * @returns {JSX.Element} - A React JSX element representing the HeroSection component.
+ */
+
 import { MoveRight } from "lucide-react";
 import Image from "next/image";
 

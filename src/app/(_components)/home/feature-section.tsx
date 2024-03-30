@@ -1,3 +1,9 @@
+/**
+ * Represents a feature section component displaying information about MCCA refund and additional features.
+ * @component
+ * @returns {JSX.Element} - A React JSX element representing the FeatureSection component.
+ */
+
 import { CardView } from "./card-view";
 
 export const FeatureSection = () => {

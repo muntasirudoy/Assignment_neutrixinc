@@ -1,6 +1,12 @@
+/**
+ * Represents a page component displaying information about the company.
+ * @component
+ * @returns {JSX.Element} - A React JSX element representing the Page component.
+ */
+
 import { ChevronRight, HomeIcon } from "lucide-react";
+import InlineText from "../(_components)/about/inline-text";
 import { CardView } from "../(_components)/home/card-view";
-import InlineText from "./inline-text";
 
 const Page = () => {
   return (

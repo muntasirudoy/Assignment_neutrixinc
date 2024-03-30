@@ -1,3 +1,13 @@
+/**
+ * Represents a CardView component.
+ * @component
+ * @param {Object} props - The props of the CardView component.
+ * @param {string} [props.title] - The title of the card.
+ * @param {string} [props.subtitle] - The subtitle of the card.
+ * @param {CSSProperties["padding"]} [props.propPadding] - The padding style for the card.
+ * @returns {JSX.Element} - A React JSX element representing the CardView component.
+ */
+
 import { CSSProperties, FC } from "react";
 
 export type CardViewType = {

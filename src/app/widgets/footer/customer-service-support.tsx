@@ -1,3 +1,9 @@
+/**
+ * Represents a customer service support component displaying contact information.
+ * @component
+ * @returns {JSX.Element} - A React JSX element representing the customerServiceSupport component.
+ */
+
 export default function customerServiceSupport() {
   return (
     <div className="font-caption mq450:gap-[36px_72px] flex h-[293px] flex-col items-start justify-start gap-[72px] text-left text-xl text-white">

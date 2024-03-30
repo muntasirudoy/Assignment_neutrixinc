@@ -1,3 +1,9 @@
+/**
+ * Represents a header component displaying navigation links.
+ * @component
+ * @returns {JSX.Element} - A React JSX element representing the Header component.
+ */
+
 import Link from "next/link";
 
 function Header() {

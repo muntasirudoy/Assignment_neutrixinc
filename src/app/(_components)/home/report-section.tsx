@@ -1,3 +1,8 @@
+/**
+ * Represents a report section component for reporting claims.
+ * @component
+ * @returns {JSX.Element} - A React JSX element representing the ReportSection component.
+ */
 export const ReportSection = () => {
   return (
     <div className="font-caption container box-border flex flex-row items-start justify-center self-stretch pb-[39px] pl-5 pr-[27px] pt-0 text-left text-lg text-white">
